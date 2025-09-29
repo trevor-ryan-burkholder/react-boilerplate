@@ -1,0 +1,52 @@
+# Node.js & Package Dependencies
+node_modules/
+
+# Build Artifacts
+dist/
+.vite/
+.vitepress/
+.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE / Editor-Specific Files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*.swn
+
+# Environment Variables (DO NOT COMMIT SECRETS)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# MSAL Authentication Cache (Optional)
+msal_token_cache.json
+msal_token_cache.bin
+
+# Miscellaneous
+coverage/
+*.gz
+*.zip
+*.tar
+*.tgz
+
+# Public Folder Cache (Optional, if using dynamic assets)
+public/assets/
+public/static/
+
+# Linting & Formatting
+eslintcache
+.prettier_cache/
+stylelintcache
+
+# ogs & Debugging
+logs/
+*.log
