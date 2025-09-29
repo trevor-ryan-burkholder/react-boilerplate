@@ -1,6 +1,3 @@
-/* import-meta-env */
-/* API_BASE_URL, SETTINGS_SUBSCRIPTION_KEY, SETTINGS_ENVIRONMENT_SUFFIX */
-
 import { CssBaseline } from '@mui/material';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
